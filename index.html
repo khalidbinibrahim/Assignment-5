@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- TAILWIND AND DAISY UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAVIGATION  -->
+    <nav>
+        <div class="navbar bg-base-100 font_raleway py-14 px-3 lg:px-32">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <h1 class="btn btn-ghost text-4xl font-extrabold text-[#030712]">P-Ticket</h1>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-2 font-medium text-[#030712B3]">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-end">
+                <a class="btn bg-[#1DD1001A] text-[#1dd100] font-bold text-base px-5 py-2">Bus <img
+                        src="images/bus-icon.png" alt="bus-icon"></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header>
+        <section class="bg-[url('./images/banner.png')] bg-no-repeat bg-center text-center mx-w-[1170] h-[550px]
+        items-center justify-center py-20 px-3 lg:px-32">
+            <div class="flex flex-col items-center justify-center">
+                <h1 class="font_raleway text-4xl lg:text-7xl font-extrabold text-white my-4">End-to-End Travel with</h1>
+                <h1 class="font_raleway text-4xl lg:text-7xl font-extrabold text-[#1DD100] my-2">P Paribahan</h1>
+                <p class="text-[#E7E7E7] my-6 font_inter">Yes, you can run unit tests and view the results directly
+                    within
+                    the app. The <br> integrated testing features allow for a streamlined .</p>
+                <a class="btn bg-[#1DD100] text-[#030712] font-bold text-base px-5 py-2 border-none font_raleway">Buy
+                    Tickets</a>
+            </div>
+        </section>
+
+        <section>
+            <div
+                class="flex flex-col lg:flex-row justify-evenly items-center font_inter px-3 lg:px-32 relative bottom-16">
+                <div class="flex justify-between gap-4 bg-white p-8 rounded-2xl border-b-4 border-[#1DD100]">
+                    <div>
+                        <img src="images/people.png" alt="people">
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-4xl text-[#030712] mb-2">500K+</h2>
+                        <p class="text-base font-normal text-[#03071299]">Registered users</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-between gap-4 bg-white p-8 rounded-2xl border-b-4 border-[#1DD100]">
+                    <div>
+                        <img src="images/ticket-cupon.png" alt="ticket-cupon">
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-4xl text-[#030712] mb-2">1.7 lacks</h2>
+                        <p class="text-base font-normal text-[#03071299]">Tickets sold</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-between gap-4 bg-white p-8 rounded-2xl border-b-4 border-[#1DD100]">
+                    <div>
+                        <img src="images/stoppage.png" alt="stoppage">
+                    </div>
+                    <div>
+                        <h2 class="font-bold text-4xl text-[#030712] mb-2">80K+</h2>
+                        <p class="text-base font-normal text-[#03071299]">Rental partners</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- OFFER SECTION -->
+        <section class="py-20 px-3 lg:px-32">
+            <div class="font-raleway text-center font-bold text-4xl text-[#030712CC]">
+                <h2>Best offers for you</h2>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-6 justify-between items-center py-16">
+                <div class="card card-side bg-[#FFBF0F] shadow-xl w-[575px] h-[220px]">
+                    <div class="flex flex-row justify-between items-center card-body">
+                        <div class="font_inter">
+                            <h2 class="font-black text-4xl text-[#030712CC] mb-1">15% OFF</h2>
+                            <p class="font-semibold text-xl text-[#030712CC] mb-1">on your next purchase</p>
+                            <p class="font-medium text-[#03071280]">use by January 2024</p>
+                        </div>
+                        <img class="w-100% bg-no-repeat" src="images/cupon-devider.png" alt="cupon-devider">
+                        <div class="font_raleway">
+                            <h3 class="font-bold text-3xl text-[#030712] mb-1">NEW15</h3>
+                            <p class="font-medium text-xl text-[#03071266]">Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-side bg-[#F78C9C] shadow-xl w-[575px] h-[220px]">
+                    <div class="flex flex-row justify-between items-center card-body">
+                        <div class="font_inter">
+                            <h2 class="font-black text-4xl text-[#030712CC] mb-1">20% OFF</h2>
+                            <p class="font-semibold text-xl text-[#030712CC] mb-1">on your next purchase</p>
+                            <p class="font-medium text-[#03071280]">use by January 2024</p>
+                        </div>
+                        <img class="w-100% bg-no-repeat" src="images/cupon-devider.png" alt="cupon-devider">
+                        <div class="font_raleway">
+                            <h3 class="font-bold text-3xl text-[#030712] mb-1">Couple 20</h3>
+                            <p class="font-medium text-xl text-[#03071266]">Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="font_raleway text-center ">
+                <a class="btn bg-white text-[#1dd100] font-bold text-base px-5 py-2 border-[#1DD100]">See All Offers</a>
+            </div>
+        </section>
+
+        <!-- P.H PARIBAHAN SECTION -->
+        <section class="bg-[#F6F8F8] py-20 px-3 lg:px-32 rounded-t-[88px]">
+            <div>
+                <div class="text-center">
+                    <h2>P.H Paribahan</h2>
+                    <p>Yes, you can run unit tests and view the results directly within the app. The integrated <br> testing features allow for a streamlined .</p>
+                </div>
+            </div>
+
+            <div>
+
+            </div>
+
+            <div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+
+</html>
