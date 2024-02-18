@@ -210,24 +210,30 @@
             </div>
 
             <!-- SELECT YOUR SEAT SECTION -->
-            <div class="flex justify-between items-center bg-white rounded-xl">
+            <div class="flex justify-center gap-20 items-center bg-white p-16 rounded-xl">
                 <div>
                     <div>
-                        <h3>Select Your Seat</h3>
+                        <h3 class="font_raleway text-xl font-semibold mb-2">Select Your Seat</h3>
                         <hr>
-                        <div>
-                            <p><img src="images/seat-gray.png" alt="seat-gray">Available</p>
-                            <p><img src="images/seat-green-filled.png" alt="seat-green-filled">Selected</p>
+                        <div class="font_inter flex justify-between my-2">
+                            <div class="flex gap-2 text-[#03071280] font-medium">
+                                <img class="w-6 h-6" src="images/seat-gray.png" alt="seat-gray">
+                                <p>Available</p>
+                            </div>
+                            <div class="flex gap-2 text-[#1DD100] font-medium">
+                                <img class="w-6 h-6" src="images/seat-green-filled.png" alt="seat-green-filled">
+                                <p>Selected</p>
+                            </div>
                         </div>
                         <hr>
-                        <div>
-                            <a class="btn bg-[#0307120D] text-[#030712CC] font-bold text-base px-5 py-2"><i
+                        <div class="mt-2 text-right">
+                            <a class="btn bg-[#0307121A] text-[#030712CC] font-bold text-base px-8 py-2"><i
                                     class="uil uil-streering"></i></a>
                         </div>
                     </div>
 
                     <div>
-                        <div class="overflow-x-auto">
+                        <div class="overflow-x-auto font_inter">
                             <table class="table">
                                 <tbody>
                                     <!-- row 1 -->
@@ -364,14 +370,14 @@
                     </div>
                 </div>
 
-                <div class="">
-                    <h3>Select Your Seat</h3>
+                <div>
+                    <h3 class="font_raleway text-xl font-semibold mb-2">Select Your Seat</h3>
                     <hr>
-                    <div class="overflow-x-auto bg-[#F6F8F8]">
-                        <table class="table">
+                    <div class="overflow-x-auto bg-[#F6F8F8] p-4 mt-5 rounded-xl">
+                        <table class="table my-2 font_inter">
                             <!-- head -->
                             <thead>
-                                <tr>
+                                <tr class="font-medium text-[#030712]">
                                     <th>Seat</th>
                                     <th>Class</th>
                                     <th>Price</th>
@@ -379,32 +385,29 @@
                             </thead>
                             <hr>
                             <tbody>
-                                <!-- row 1 -->
-                                <tr>
-
-                                </tr>
+                                <!-- rows -->
                             </tbody>
                             <hr>
                         </table>
 
-                        <div class="flex justify-between">
-                            <p>Total Price</p>
-                            <p>bdt</p>
+                        <div class="flex justify-between my-2">
+                            <p class="font-medium">Total Price</p>
+                            <p class="font-medium">bdt</p>
                         </div>
 
-                        <div>
+                        <div class="flex justify-between">
                             <input type="text" placeholder="Have any coupon?"
-                                class="input input-ghost w-full max-w-xs" />
-                            <button class="btn">Apply</button>
+                                class="input input-ghost w-full max-w-72 bg-white" />
+                            <button class="btn bg-[#1dd100] text-white">Apply</button>
                         </div>
 
-                        <div class="flex justify-between">
-                            <p>Grand Total</p>
-                            <p>bdt</p>
+                        <div class="flex justify-between my-2">
+                            <p class="font-medium">Grand Total</p>
+                            <p class="font-medium">bdt</p>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="p-6 font_inter">
                         <form class="max-w-sm mx-auto">
                             <div class="mb-5">
                                 <label for="name"
@@ -428,7 +431,7 @@
                                     placeholder="Enter your email id" required />
                             </div>
                             <button type="submit"
-                                class="mb-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 w-full">Next</button>
+                                class="mb-5 text-white bg-[#1dd100] hover:bg-[#1dd100] focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#1dd100] dark:hover:bg-[#1dd100] dark:focus:ring-[#1dd100] w-full">Next</button>
                             <div class="font_inter text-[#03071299]">
                                 <a class="link px-4">Terms and Conditions</a>
                                 <a class="link px-4">Cancellation Policy</a>
