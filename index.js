@@ -71,6 +71,14 @@ for (const seat of allSeat) {
             }
             grandTotalElement.innerText = convertedGrandTotal.toFixed(2);
         });
+
+        this.classList.add('bg-[#1dd100]', 'text-white');
+
+        let selectedSeats = document.querySelectorAll('.bg-[#1dd100]');
+
+        if (selectedSeats.length >= 4) {
+            alert('You cannot buy more seats');
+        }
     });
 }
 
