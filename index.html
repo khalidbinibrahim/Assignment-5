@@ -384,7 +384,7 @@
                                 </tr>
                             </thead>
                             <hr>
-                            <tbody>
+                            <tbody id="table-rows">
                                 <!-- rows -->
                             </tbody>
                             <hr>
@@ -392,18 +392,18 @@
 
                         <div class="flex justify-between my-2">
                             <p class="font-medium">Total Price</p>
-                            <p class="font-medium">bdt</p>
+                            <p class="font-medium">BDT <span id="total-price">0</span></p>
                         </div>
 
                         <div class="flex justify-between">
-                            <input type="text" placeholder="Have any coupon?"
+                            <input id="coupon-field" type="text" placeholder="Have any coupon?"
                                 class="input input-ghost w-full max-w-72 bg-white" />
-                            <button class="btn bg-[#1dd100] text-white">Apply</button>
+                            <button id="coupon-apply" class="btn bg-[#1dd100] text-white">Apply</button>
                         </div>
 
                         <div class="flex justify-between my-2">
                             <p class="font-medium">Grand Total</p>
-                            <p class="font-medium">bdt</p>
+                            <p class="font-medium">BDT <span id="grand-total">0</span></p>
                         </div>
                     </div>
 
